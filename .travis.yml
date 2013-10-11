@@ -1,7 +1,7 @@
 language: csharp
 csharp:
   - dotNet40
-build_environment: win2012
+build_environment: windows2012
 env: EnableNuGetPackageRestore=true
 before_script:
  - cmd /c "IF NOT EXIST shippable mkdir shippable"
